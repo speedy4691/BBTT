@@ -162,7 +162,7 @@ def gameLoop():
         Tahoe_rect = Tahoe_map.get_rect(center = (dis_width / 2, dis_height / 2))
         dis.blit(Tahoe_map,Tahoe_rect)
        
-        fish_image = pygame.image.load("fish.png").convert_alpha()
+        fish_image = pygame.image.load("Fish.png").convert_alpha()
         fish_rect = fish_image.get_rect(center = (foodx, foody))
         dis.blit(fish_image,fish_rect)
         snake_Head = []
