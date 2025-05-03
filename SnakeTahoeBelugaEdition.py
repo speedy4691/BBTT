@@ -47,7 +47,7 @@ def Your_score(score):
  
 def our_snake(snake_block, snake_list):
     for x in snake_list:
-        player_image = pygame.image.load("beluga.png").convert_alpha()
+        player_image = pygame.image.load("Beluga.png").convert_alpha()
         player_rect = player_image.get_rect(center = (x[0], x[1]))
         dis.blit(player_image,player_rect)
  
